@@ -25,36 +25,36 @@
   <body class="font-sans-custom">
     <header>
       <div class="hero bg-[#F9F6E2]">
+        
         <div class="hero-content flex-col lg:flex-row">
-          <div class="card w-full max-w-2xl text-center">
-            <p class="font-semibold text-3xl">---SALE FEVER---</p>
-            <h1 class="text-6xl font-bold py-8">
+          <div class="card w-full max-w-2xl text-center  p-6 lg:p-10">
+            <p class="font-semibold text-2xl sm:text-3xl">---SALE FEVER---</p>
+            <h1 class="text-4xl sm:text-6xl font-bold py-4 sm:py-8">
               Purchase TK 200 or above & get
               <span class="text-[#E527B2]">20% off</span>
             </h1>
-            <div class="flex mt-4 items-center mx-auto">
-              <p class="font-medium text-2xl">Use Promo Code</p>
-              <p
-                class="bg-[#e527b2] ml-4 py-3 px-6 text-2xl font-semibold rounded-lg text-white"
-              >
+            <div class="flex flex-col sm:flex-row items-center sm:justify-center mt-4">
+              <p class="font-medium text-lg">Use Promo Code</p>
+              <p class="bg-[#e527b2] mt-2 sm:mt-0 ml-0 sm:ml-4 py-3 px-6 text-lg font-semibold rounded-lg text-white">
                 SELL200
               </p>
             </div>
           </div>
           <div class="card w-full max-w-sm lg:max-w-xl lg:p-6 m-4">
-            <img src="images/Summer 1.png" alt="" />
+            <img class="w-9/12 lg:w-full mx-auto" src="images/Summer 1.png" alt="" />
           </div>
         </div>
       </div>
+      
     </header>
-    <main class="bg-[#F8F8F8] flex px-20 gap-4">
-      <div class="product w-9/12">
+    <main class="bg-[#F8F8F8] flex px-5 md:px-10 lg:px-20 gap-4 flex-col lg:flex-row">
+      <div class="product w-full lg:w-9/12">
         <!-- Kitchenware section -->
         <section class="container mx-auto pt-14">
-          <h2 class="font-semibold text-4xl">Kitchenware</h2>
-          <div class="card-section grid grid-cols-3 pt-8 gap-5">
+          <h2 class="font-semibold text-3xl sm:text-4xl text-center lg:text-left">Kitchenware</h2>
+          <div class="card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 gap-5">
             <!-- card-1 -->
-            <div class="card bg-white cursor-pointer" onclick="addToCart(this)">
+            <div class="card bg-white cursor-pointer w-full" onclick="addToCart(this)">
               <figure class="m-4 py-6 px-6 bg-[#F3F3F3] rounded-xl">
                 <img src="images/prod1.png" alt="Shoes" />
               </figure>
@@ -184,8 +184,8 @@
         </section>
         <!-- Sportswear section -->
         <section class="container mx-auto pt-14">
-          <h2 class="font-semibold text-4xl">Sportswear</h2>
-          <div class="card-section grid grid-cols-3 pt-8 gap-5">
+          <h2 class="font-semibold text-3xl sm:text-4xl text-center lg:text-left">Sportswear</h2>
+                    <div class="card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 gap-5">
             <!-- card-1 -->
             <div class="card bg-white cursor-pointer" onclick="addToCart(this)">
               <figure class="m-4 py-6 px-6 bg-[#F3F3F3] rounded-xl">
@@ -317,8 +317,8 @@
 
         <!-- Furniture section -->
         <section class="container mx-auto pt-14">
-          <h2 class="font-semibold text-4xl">Furniture</h2>
-          <div class="card-section grid grid-cols-3 pt-8 gap-5">
+          <h2 class="font-semibold text-3xl sm:text-4xl text-center lg:text-left">Furniture</h2>
+                    <div class="card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 gap-5">
             <!-- card-1 -->
             <div class="card bg-white cursor-pointer" onclick="addToCart(this)">
               <figure class="m-4 py-6 px-6 bg-[#F3F3F3] rounded-xl">
@@ -452,7 +452,7 @@
       </div>
 
       <!-- cart-section -->
-      <div class="cart w-3/12 mt-32">
+      <div class="cart w-full lg:w-3/12 mt-32 flex lg:flex-col md:flex-row md:gap-4 flex-col fle">
         <!-- coupon card -->
         <div class="card bg-white">
           <div class="card-body justify-center">
