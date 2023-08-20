@@ -28,7 +28,7 @@ function addToCart(target) {
 
 
 
-     //btn show condition
+     //btn Enable condition
     if(newTotalPrice>= 200){
         const btnApply = document.getElementById('btn-apply');
         btnApply.removeAttribute('disabled');
